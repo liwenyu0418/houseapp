@@ -31,3 +31,5 @@ export default store
 // 1、store,只负责接收和保存值，不负责任何运算,reducer返回的值，就会被直接保存在store中
 // 2、reducer： 计算者, 通过各种计算，返回新的状态给store，
 // 3、action:通知，如果想要通知reducer进行状态改变，只能发送一个action
+
+//我只是来做gitub更新测试的

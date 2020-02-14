@@ -1,0 +1,50 @@
+.my_history{
+    width: 100%;
+    .title{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 30px;
+        background-color: #00B028;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       color: #fff;
+       font-size: 18px;
+    }
+
+.main_box{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    .img_box{
+width: 25%;
+text-indent: 10px;
+        img{
+            width: 80px;
+            height: 70px;
+        }
+    }
+
+.contentbox{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: start;
+    .leftcon{
+        p{
+            margin: 5px 0;
+            color: #868686;
+            span{
+                display: inline-block;
+                margin-right: 5px;
+            }
+        }
+    }
+    .rightcon{
+        font-size: 16px;
+        color: red;
+    }
+} 
+}
+}

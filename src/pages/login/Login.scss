@@ -1,0 +1,15 @@
+$color:#00B028;
+a{
+    color:$color
+}
+// .btnactive{
+//     background-color: rgb(86, 170, 106)
+// }
+.bottom{
+    width: 100%;
+    color: #bbb;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+}

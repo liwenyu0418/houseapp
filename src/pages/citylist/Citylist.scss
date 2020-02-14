@@ -1,0 +1,39 @@
+.citylist_box{
+    width: 100%;
+    height: 100%;
+    .citylist_title{
+        width: 100%;
+        height: 30px;
+        background-color: #00B028;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        .back{
+            width: 40%;
+        }
+        .select_city{
+            width: 60%;
+            font-size: 18px;
+        }
+    }
+
+    .citylist_box_left{
+        width: 85%;
+        height: 100%;
+        position: fixed;
+        top:8%;
+        left: 0;
+    }
+    .citylist_box_right{
+        width: 8%;
+        background-color: #eee;
+        position: fixed;
+        top:8%;
+        right: 5px;
+       
+        p{
+            margin: 5px;
+            text-align: center;
+        }
+    }
+}
